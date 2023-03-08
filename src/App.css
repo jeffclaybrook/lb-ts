@@ -1,0 +1,30 @@
+:root {
+  --surface: #292a2d;
+  --primary: #76c7cd;
+  --surface-alt: #292a2df2;
+  --text: #e1e3e5;
+  --text-alt: #e1e3e5cb;
+  --border: #e1e3e540;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+  background: var(--surface);
+  color: var(--text);
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.App {
+  height: 100%;
+}
